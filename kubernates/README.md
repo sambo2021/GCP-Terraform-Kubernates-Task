@@ -26,11 +26,11 @@
         kubectl apply -f redis-service.yml
 ```
 - then assign redis service generated ip to env variables of web-app-deployment.yml 
-- then run the deployment and service of webapp
+- then run the deployment and service of web-app
  ```sh
         kubectl apply -f web-app-deployment.yml
         kubectl apply -f web-app-service.yml
-```
+ ```
 - then hit the browser of web-app on browser by using web-app-servise external ip to show the following screen 
 ![Build Status](https://github.com/sambo2021/GCP-Terraform-Kubernates-Task/blob/main/screen-shots/web-app.png?raw=true)
 

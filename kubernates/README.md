@@ -26,7 +26,7 @@
         kubectl apply -f redis-service.yml
 ```
 - then assign redis service generated ip to env variables of web-app-deployment.yml 
-- then run the deployment and service of web-app
+- then run the deployment and service of webapp
  ```sh
         kubectl apply -f web-app-deployment.yml
         kubectl apply -f web-app-service.yml

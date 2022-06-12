@@ -21,7 +21,7 @@
 ```
 - create 4 yml file on pastion host : 2 for web-app deployment and service and 2 for redis deployment and service
 - at first run the deployment and service of redis 
-  ```sh
+```sh
         kubectl apply -f redis-deployment.yml
         kubectl apply -f redis-service.yml
 ```
